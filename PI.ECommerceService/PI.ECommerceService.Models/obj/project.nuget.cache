@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "Wdx8U3+vmMF9NQOdzI8qapKWedMn3En3JhdZKihMTNf/4Ezm+alkWuv01wjNwKMxlTOAzZsZBaj5awWTJz14lg==",
+  "success": true,
+  "projectFilePath": "/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Models/PI.ECommerceService.Models.csproj",
+  "expectedPackageFiles": [
+    "/Users/parthi/.nuget/packages/microsoft.codeanalysis.fxcopanalyzers/3.3.2/microsoft.codeanalysis.fxcopanalyzers.3.3.2.nupkg.sha512",
+    "/Users/parthi/.nuget/packages/microsoft.codeanalysis.versioncheckanalyzer/3.3.2/microsoft.codeanalysis.versioncheckanalyzer.3.3.2.nupkg.sha512",
+    "/Users/parthi/.nuget/packages/microsoft.codequality.analyzers/3.3.2/microsoft.codequality.analyzers.3.3.2.nupkg.sha512",
+    "/Users/parthi/.nuget/packages/microsoft.netcore.analyzers/3.3.2/microsoft.netcore.analyzers.3.3.2.nupkg.sha512",
+    "/Users/parthi/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/parthi/.nuget/packages/microsoft.netframework.analyzers/3.3.2/microsoft.netframework.analyzers.3.3.2.nupkg.sha512",
+    "/Users/parthi/.nuget/packages/mongodb.bson/2.14.1/mongodb.bson.2.14.1.nupkg.sha512",
+    "/Users/parthi/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/parthi/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/parthi/.nuget/packages/stylecop.analyzers/1.1.118/stylecop.analyzers.1.1.118.nupkg.sha512",
+    "/Users/parthi/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

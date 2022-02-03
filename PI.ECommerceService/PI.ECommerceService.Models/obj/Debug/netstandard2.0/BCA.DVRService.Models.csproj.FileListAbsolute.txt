@@ -1,0 +1,20 @@
+﻿C:/Parthi/BCA/SourceCode/DVR/PI.ECommerceService/PI.ECommerceService.Models/bin/Debug/netstandard2.0/PI.ECommerceService.Models.deps.json
+C:/Parthi/BCA/SourceCode/DVR/PI.ECommerceService/PI.ECommerceService.Models/bin/Debug/netstandard2.0/PI.ECommerceService.Models.dll
+C:/Parthi/BCA/SourceCode/DVR/PI.ECommerceService/PI.ECommerceService.Models/bin/Debug/netstandard2.0/PI.ECommerceService.Models.pdb
+C:/Parthi/BCA/SourceCode/DVR/PI.ECommerceService/PI.ECommerceService.Models/obj/Debug/netstandard2.0/PI.ECommerceService.Models.csprojAssemblyReference.cache
+C:/Parthi/BCA/SourceCode/DVR/PI.ECommerceService/PI.ECommerceService.Models/obj/Debug/netstandard2.0/PI.ECommerceService.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:/Parthi/BCA/SourceCode/DVR/PI.ECommerceService/PI.ECommerceService.Models/obj/Debug/netstandard2.0/PI.ECommerceService.Models.AssemblyInfoInputs.cache
+C:/Parthi/BCA/SourceCode/DVR/PI.ECommerceService/PI.ECommerceService.Models/obj/Debug/netstandard2.0/PI.ECommerceService.Models.AssemblyInfo.cs
+C:/Parthi/BCA/SourceCode/DVR/PI.ECommerceService/PI.ECommerceService.Models/obj/Debug/netstandard2.0/PI.ECommerceService.Models.csproj.CoreCompileInputs.cache
+C:/Parthi/BCA/SourceCode/DVR/PI.ECommerceService/PI.ECommerceService.Models/obj/Debug/netstandard2.0/PI.ECommerceService.Models.dll
+C:/Parthi/BCA/SourceCode/DVR/PI.ECommerceService/PI.ECommerceService.Models/obj/Debug/netstandard2.0/PI.ECommerceService.Models.pdb
+/Users/parthi/Onedrive/OneDrive - PeerIslands/BCA/SourceCode/DVR/PI.ECommerceService/PI.ECommerceService.Models/bin/Debug/netstandard2.0/PI.ECommerceService.Models.deps.json
+/Users/parthi/Onedrive/OneDrive - PeerIslands/BCA/SourceCode/DVR/PI.ECommerceService/PI.ECommerceService.Models/bin/Debug/netstandard2.0/PI.ECommerceService.Models.dll
+/Users/parthi/Onedrive/OneDrive - PeerIslands/BCA/SourceCode/DVR/PI.ECommerceService/PI.ECommerceService.Models/bin/Debug/netstandard2.0/PI.ECommerceService.Models.pdb
+/Users/parthi/Onedrive/OneDrive - PeerIslands/BCA/SourceCode/DVR/PI.ECommerceService/PI.ECommerceService.Models/obj/Debug/netstandard2.0/PI.ECommerceService.Models.csprojAssemblyReference.cache
+/Users/parthi/Onedrive/OneDrive - PeerIslands/BCA/SourceCode/DVR/PI.ECommerceService/PI.ECommerceService.Models/obj/Debug/netstandard2.0/PI.ECommerceService.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/parthi/Onedrive/OneDrive - PeerIslands/BCA/SourceCode/DVR/PI.ECommerceService/PI.ECommerceService.Models/obj/Debug/netstandard2.0/PI.ECommerceService.Models.AssemblyInfoInputs.cache
+/Users/parthi/Onedrive/OneDrive - PeerIslands/BCA/SourceCode/DVR/PI.ECommerceService/PI.ECommerceService.Models/obj/Debug/netstandard2.0/PI.ECommerceService.Models.AssemblyInfo.cs
+/Users/parthi/Onedrive/OneDrive - PeerIslands/BCA/SourceCode/DVR/PI.ECommerceService/PI.ECommerceService.Models/obj/Debug/netstandard2.0/PI.ECommerceService.Models.csproj.CoreCompileInputs.cache
+/Users/parthi/Onedrive/OneDrive - PeerIslands/BCA/SourceCode/DVR/PI.ECommerceService/PI.ECommerceService.Models/obj/Debug/netstandard2.0/PI.ECommerceService.Models.dll
+/Users/parthi/Onedrive/OneDrive - PeerIslands/BCA/SourceCode/DVR/PI.ECommerceService/PI.ECommerceService.Models/obj/Debug/netstandard2.0/PI.ECommerceService.Models.pdb

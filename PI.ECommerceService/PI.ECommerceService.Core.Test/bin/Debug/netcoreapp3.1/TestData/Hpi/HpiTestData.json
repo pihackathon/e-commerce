@@ -1,0 +1,88 @@
+{
+  "identifier": {
+    "vrm": "ACE1",
+    "capCode": "LRRR44VS24EDTA4 4",
+    "capId": "57476",
+    "mileage": null,
+    "database": "CAR",
+    "source": "caphpi"
+  },
+  "vehicleData": {
+    "economy": {
+      "co2Rating": 229
+    }
+  },
+  "specCheck": {
+    "status": {
+      "id": 1,
+      "description": "data returned"
+    },
+    "options": [
+      {
+        "short_description": "Sliding Panaromic Roof (including power blinds)",
+        "long_description": "Glass roof, Sliding glass electric front sunroof",
+        "basic_price": "1250",
+        "option_price": "1500",
+        "option_kind": "Optional"
+      },
+      {
+        "short_description": "Alston headlining (Cirrus, Ivory or Ebony)",
+        "long_description": "ALSTON Ivory headlining",
+        "basic_price": "833",
+        "option_price": "1000",
+        "option_kind": "Optional"
+      },
+      {
+        "short_description": "4 Zone Climate Control",
+        "long_description": "Air conditioning with fully automated climate control, rear outlet, four climate control zones and rear controls, Secondary ventilation controls with digital display for each rear passenger",
+        "basic_price": "733",
+        "option_price": "880",
+        "option_kind": "Optional"
+      },
+      {
+        "short_description": "Full size spare wheel",
+        "long_description": "Full size alloy spare wheel",
+        "basic_price": "166",
+        "option_price": "200",
+        "option_kind": "Optional"
+      },
+      {
+        "short_description": "Front fog lamps",
+        "long_description": "Front fog lights",
+        "basic_price": "116",
+        "option_price": "140",
+        "option_kind": "Optional"
+      },
+      {
+        "short_description": "Atlas Side Vent Graphic",
+        "long_description": "Side vents in Dark Atlas ",
+        "basic_price": "83",
+        "option_price": "100",
+        "option_kind": "Optional"
+      },
+      {
+        "short_description": "First Aid Kit",
+        "long_description": "First aid kit",
+        "basic_price": "25",
+        "option_price": "30",
+        "option_kind": "Optional"
+      },
+      {
+        "short_description": "Smokers Pack",
+        "long_description": "Ashtray located in the front and rear, Cigar lighter located in the front",
+        "basic_price": "25",
+        "option_price": "30",
+        "option_kind": "Optional"
+      }
+    ],
+    "options_price": "3880",
+    "options_rating": "2",
+    "vehicle_price_ex_vat": "69854",
+    "vehicle_price_with_vat": "83825",
+    "total_price": "87705"
+  },
+  "marketSector": {
+    "capId": 57476,
+    "sector": "SUV"
+  }
+}

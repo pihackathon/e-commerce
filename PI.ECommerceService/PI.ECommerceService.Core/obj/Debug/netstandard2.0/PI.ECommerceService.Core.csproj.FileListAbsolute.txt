@@ -1,0 +1,14 @@
+/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Core/bin/Debug/netstandard2.0/PI.ECommerceService.Core.deps.json
+/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Core/bin/Debug/netstandard2.0/PI.ECommerceService.Core.dll
+/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Core/bin/Debug/netstandard2.0/PI.ECommerceService.Core.pdb
+/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Core/bin/Debug/netstandard2.0/PI.ECommerceService.Models.dll
+/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Core/bin/Debug/netstandard2.0/PI.ECommerceService.Models.pdb
+/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Core/bin/Debug/netstandard2.0/PI.ECommerceService.Models.xml
+/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Core/obj/Debug/netstandard2.0/PI.ECommerceService.Core.csproj.AssemblyReference.cache
+/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Core/obj/Debug/netstandard2.0/PI.ECommerceService.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Core/obj/Debug/netstandard2.0/PI.ECommerceService.Core.AssemblyInfoInputs.cache
+/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Core/obj/Debug/netstandard2.0/PI.ECommerceService.Core.AssemblyInfo.cs
+/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Core/obj/Debug/netstandard2.0/PI.ECommerceService.Core.csproj.CoreCompileInputs.cache
+/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Core/obj/Debug/netstandard2.0/PI.ECommerceService.Core.csproj.CopyComplete
+/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Core/obj/Debug/netstandard2.0/PI.ECommerceService.Core.dll
+/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Core/obj/Debug/netstandard2.0/PI.ECommerceService.Core.pdb

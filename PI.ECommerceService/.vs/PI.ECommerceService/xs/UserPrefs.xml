@@ -1,0 +1,69 @@
+﻿<Properties StartupConfiguration="{047B82B6-89CA-4AA6-A2F2-CC3031EE203C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PI.ECommerceService.Models/Constants/ErrorConstants.cs">
+    <Files>
+      <File FileName="PI.ECommerceService.Product.APITest/StoreCriteriaFunctionUnitTest.cs" Line="109" Column="36" />
+      <File FileName="PI.ECommerceService.Product.API/ProductFunction.cs" Line="55" Column="40" />
+      <File FileName="PI.ECommerceService.Models/Constants/ErrorConstants.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PI.ECommerceService" expanded="True">
+            <Node name="APIFunction" expanded="True">
+              <Node name="PI.ECommerceService.Product.API" expanded="True" />
+            </Node>
+            <Node name="Test" expanded="True">
+              <Node name="PI.ECommerceService.Product.APITest" expanded="True" />
+            </Node>
+            <Node name="PI.ECommerceService.Core" expanded="True">
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Mapping" expanded="True" />
+              <Node name="Service" expanded="True" />
+            </Node>
+            <Node name="PI.ECommerceService.Models" expanded="True">
+              <Node name="Constants" expanded="True">
+                <Node name="ErrorConstants.cs" selected="True" />
+              </Node>
+              <Node name="DTO" expanded="True">
+                <Node name="Product" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="PI.ECommerceService" expanded="True">
+            <Node name="Test" expanded="True">
+              <Node name="PI.ECommerceService.Product.APITest" expanded="True">
+                <Node name="PI.ECommerceService.Product.APITest" expanded="True">
+                  <Node name="ProductFunctionUnitTest" expanded="True">
+                    <Node name="GetProductsError" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>BCA.DVRService.Core/PI.ECommerceService.Core.csproj</String>
+    <String>BCA.DVRService.Models/PI.ECommerceService.Models.csproj</String>
+    <String>BCA.DVRService.Core.Test/PI.ECommerceService.Core.Test.csproj</String>
+    <String>BCA.DVRService.Criteria.API/PI.ECommerceService.Product.API.csproj</String>
+    <String>BCA.DVRService.Criteria.APITest/PI.ECommerceService.Product.APITest.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Core.Test/MongoDBServiceUnitTest.cs" relfile="PI.ECommerceService.Core.Test/MongoDBServiceUnitTest.cs" line="107" column="1" />
+      <Breakpoint file="/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Product.APITest/ProductFunctionUnitTest.cs" relfile="PI.ECommerceService.Product.APITest/ProductFunctionUnitTest.cs" line="81" column="1" />
+      <Breakpoint file="/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Product.APITest/ProductFunctionUnitTest.cs" relfile="PI.ECommerceService.Product.APITest/ProductFunctionUnitTest.cs" line="127" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.APIFunction.PI.ECommerceService.Product.API PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

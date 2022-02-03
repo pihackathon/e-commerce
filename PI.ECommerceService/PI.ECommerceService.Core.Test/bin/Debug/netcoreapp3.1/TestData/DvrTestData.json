@@ -1,0 +1,571 @@
+{
+  "_id ": "123456",
+  "inventoryID": "3505_7471",
+  "SchemaVersion": "3",
+  "DocumentVersion": "4",
+  "EffectiveDate": "10/10/2020",
+  "inventoryType": "CAR",
+  "version": "3",
+  "vatStatusCode": "M",
+  "vatStatus": "Margin",
+  "vin": "123456",
+  "registration": {
+    "vrm": "12345678",
+    "date": "10/10/2018",
+    "countryCode": "countryCode",
+    "country": "country",
+    "cherishedPlate": "cherishedPlate",
+    "vrmHistory": [
+      {
+        "vrm": "1234567890",
+        "cherishedPlate": "cherishedPlate",
+        "dateOfChange": "10/09/2018"
+      }
+    ]
+  },
+  "sellingSystemId": [
+    {
+      "inventoryId": "qwerty",
+      "system": "ACS"
+    }
+  ],
+  "marketValuation": [
+    {
+      "dateOfValuation": "26/10/2020",
+      "valuationType": "CAP",
+      "valuationClass": "CARS",
+      "valuationCondition": "NEW",
+      "valuationValue": "13960",
+      "valuationCurrency": "GBP",
+      "valuationEffectiveDate": "01/10/2020",
+      "valuationMileage": "40322",
+      "pointOfPricingValuationId": "59819",
+      "manuallyPriced": "Auto"
+    },
+    {
+      "dateOfValuation": "26/10/2020",
+      "valuationType": "CAP",
+      "valuationClass": "CARS",
+      "valuationCondition": "RETAIL",
+      "valuationValue": "6850",
+      "valuationCurrency": "GBP",
+      "valuationEffectiveDate": "01/10/2020",
+      "valuationMileage": "40322",
+      "pointOfPricingValuationId": "59819",
+      "manuallyPriced": "Auto"
+    },
+    {
+      "dateOfValuation": "26/10/2020",
+      "valuationType": "CAP",
+      "valuationClass": "CARS",
+      "valuationCondition": "CLEAN",
+      "valuationValue": "8100",
+      "valuationCurrency": "GBP",
+      "valuationEffectiveDate": "01/10/2020",
+      "valuationMileage": "40322",
+      "pointOfPricingValuationId": "59819",
+      "manuallyPriced": "Auto"
+    },
+    {
+      "dateOfValuation": "26/10/2020",
+      "valuationType": "CAP",
+      "valuationClass": "CARS",
+      "valuationCondition": "AVERAGE",
+      "valuationValue": "5175",
+      "valuationCurrency": "GBP",
+      "valuationEffectiveDate": "01/10/2020",
+      "valuationMileage": "40322",
+      "pointOfPricingValuationId": "59819",
+      "manuallyPriced": "Auto"
+    },
+    {
+      "dateOfValuation": "26/10/2020",
+      "valuationType": "CAP",
+      "valuationClass": "CARS",
+      "valuationCondition": "BELOW AVE",
+      "valuationValue": "4750",
+      "valuationCurrency": "GBP",
+      "valuationEffectiveDate": "01/10/2020",
+      "valuationMileage": "40322",
+      "pointOfPricingValuationId": "59819",
+      "manuallyPriced": "Auto"
+    },
+    {
+      "dateOfValuation": "26/10/2020",
+      "valuationType": "GLASS",
+      "valuationClass": "CARS",
+      "valuationCondition": "NEW",
+      "valuationValue": "13960",
+      "valuationCurrency": "GBP",
+      "valuationEffectiveDate": "01/10/2020",
+      "valuationMileage": "40322",
+      "pointOfPricingValuationId": "59819",
+      "manuallyPriced": "Auto"
+    },
+    {
+      "dateOfValuation": "26/10/2020",
+      "valuationType": "GLASS",
+      "valuationClass": "CARS",
+      "valuationCondition": "RETAIL",
+      "valuationValue": "7102",
+      "valuationCurrency": "GBP",
+      "valuationEffectiveDate": "01/10/2020",
+      "valuationMileage": "40322",
+      "pointOfPricingValuationId": "59819",
+      "manuallyPriced": "Auto"
+    },
+    {
+      "dateOfValuation": "26/10/2020",
+      "valuationType": "GLASS",
+      "valuationClass": "CARS",
+      "valuationCondition": "TRADE",
+      "valuationValue": "5712",
+      "valuationCurrency": "GBP",
+      "valuationEffectiveDate": "01/10/2020",
+      "valuationMileage": "40322",
+      "pointOfPricingValuationId": "59819",
+      "manuallyPriced": "Auto"
+    }
+  ],
+  "vehicleCosts": {
+    "standInValue": "5100.00",
+    "reserve": "5200.00",
+    "originalCostNew": "100.00",
+    "residualValueNet": "101.00",
+    "residualValueGross": "102.00",
+    "totalCostOfOptions": "103",
+    "totalCostNew": "104",
+    "p11dCost": "105",
+    "newCostWithOptions": "106",
+    "orignalLuxuryTax": "orignalLuxuryTax"
+  },
+  "vehicleCondition": {
+    "cosmetic": [
+      {
+        "namaGrade": "4",
+        "dateOfGrading": "11/11/2019",
+        "link": {
+          "href": "href",
+          "relation": "relation"
+        }
+      }
+    ],
+    "mechanical": [
+      {
+        "mechanicalGrade": "mechanicalGrade",
+        "dateOfGrading": "09/09/2019",
+        "link": {
+          "href": "href",
+          "relation": "relation"
+        }
+      }
+    ],
+    "salePreparationStandard": "Retail Ready"
+  },
+  "vendor": {
+    "vendor": "vendor",
+    "vendorDescription": "vendorDescription",
+    "marketSegment": "marketSegment",
+    "thirdPartyID": "thirdPartyID"
+  },
+  "images": [
+    {
+      "imageDate": "09/10/2020",
+      "imageSource": "imageSource",
+      "link": {
+        "href": "href",
+        "relation": "relation"
+      }
+    }
+  ],
+  "insuranceTotalLoss": [
+    {
+      "lossCode": "lossCode",
+      "lossdate": "05/06/1990",
+      "MIAFTRLossDate": "05/06/1992"
+    }
+  ],
+  "declarations": [
+    {
+      "category": "category",
+      "typeCode": "typeCode",
+      "type": "type",
+      "valueCode": "valueCode",
+      "value": "value"
+    }
+  ],
+  "serialNumber": "serialNumber",
+  "dateOfManufacture": "10/10/2000",
+  "productionYear": "1999",
+  "productionMonth": "12",
+  "modelYear": "2000",
+  "modelMonth": "1",
+  "engineNumber": "CGGB832276",
+  "numberOfOwners": "1",
+  "vehicleSpecification": {
+    "makeCode": "VOLK",
+    "make": "VOLKSWAGEN",
+    "modelCode": "POLO",
+    "model": "POLO",
+    "derivativeCode": "ME    10",
+    "derivative": "MATCH EDITION",
+    "modelGroupCode": "PO",
+    "modelGroup": "Polo Range",
+    "manufacturerModelCode": "manufacturerModelCode",
+    "manufacturerModel": "manufacturerModel",
+    "manufacturerCode": "manufacturerCode",
+    "manufacturer": "manufacturer",
+    "modelOriginatingMarketCode": "modelOriginatingMarketCode",
+    "modelOriginatingMarket": "modelOriginatingMarket",
+    "marketSectorPrimaryCode": "marketSectorPrimaryCode",
+    "marketSectorPrimary": "marketSectorPrimary",
+    "marketSectorSecondaryCode": "marketSectorSecondaryCode",
+    "marketSectorSecondary": "marketSectorSecondary",
+    "doors": "5",
+    "doorConfiguration": "doorConfiguration",
+    "cabType": "cabType",
+    "convertableType": "convertableType",
+    "driverSide": "driverSide",
+    "seats": "5",
+    "wheelBase": "wheelBase",
+    "vehicleTypeCode": "CAR",
+    "vehicleType": "Car",
+    "donorVehicle": "donorVehicle",
+    "autonomousDrive": {
+      "level": "level",
+      "levelManufacturerTag": "levelManufacturerTag"
+    },
+    "body": {
+      "bodyTypeCode": "H",
+      "bodyType": "Hatchback",
+      "manufacturerBodyTypeTag": "ManufacturerBodyTypeTag"
+    },
+    "powerTrain": {
+      "driveTrain": {
+        "driveTypeCode": "driveTypeCode",
+        "driveType": "driveType",
+        "driveTypeManufacturerTag": "driveTypeManufacturerTag",
+        "gearbox": {
+          "transmissionCode": "M",
+          "transmission": "Manual Transmission",
+          "manufacturerTransmissionTag": "manufacturerTransmissionTag",
+          "gears": "5"
+        }
+      },
+      "fuelCode": "P",
+      "fuel": "Petrol",
+      "propulsion": {
+        "fuelEngine": {
+          "engineSizeL": "1.4",
+          "fuelCode": "P",
+          "fuel": "Petrol",
+          "engineTypeCode": "engineTypeCode",
+          "engineType": "engineType",
+          "manufacturerEngineTypeTag": "manufacturerEngineTypeTag",
+          "engineSizeCC": "1800",
+          "manufacturerL": "manufacturerL",
+          "power": "81.9",
+          "powerUnit": "BHP",
+          "engineAndTransmissionDeclarations": {
+
+          },
+          "emissions": {
+            "co2": "co2",
+            "NOX": "NOX",
+            "euroEmissionsCategory": "euroEmissionsCategory"
+          }
+        },
+        "electricMotor": {
+          "motor": [
+            {
+              "typeCode": "typeCode",
+              "type": "type",
+              "powerKw": "1.23",
+              "powerBhp": "1.235"
+            }
+          ],
+          "battery": {
+            "batteryCapacity": "batteryCapacity",
+            "powerKWH": "1.22",
+            "maxChargeRate": "2.34",
+            "chargeTypeCode": "chargeTypeCode",
+            "chargeType": "chargeType",
+            "batteryDeclarations": {
+              "batteryWarrantyCode": "batteryWarrantyCode",
+              "batteryWarranty": "batteryWarranty",
+              "batteryLeaseCode": "batteryLeaseCode",
+              "batteryLease": "batteryLease",
+              "originalBattery": "originalBattery",
+              "replacementBattery": "replacementBattery",
+              "replacementBatteryWarranty": "replacementBatteryWarranty",
+              "batteryRange": "batteryRange"
+            }
+          }
+        },
+        "efficiency": {
+          "rating": "rating",
+          "ratingUnit": "ratingUnit",
+          "urban": "urban",
+          "extraUrban": "extraUrban",
+          "combined": "combined"
+        }
+      }
+    },
+    "vehicleDimensions": {
+      "height": "height",
+      "length": "length",
+      "width": "width",
+      "wheelbase": {
+        "type": "type",
+        "value": "value",
+        "unit": "unit",
+        "manufacturerTag": "manufacturerTag"
+      },
+      "fuelTankCapacity": "fuelTankCapacity",
+      "bootSpaceSeatsUp": "bootSpaceSeatsUp",
+      "minimumKerbWeight": "minimumKerbWeight",
+      "roofHeight": "roofHeight",
+      "roofManufacturerTag": "roofManufacturerTag"
+    },
+    "weightAndCapacity": {
+      "weight": "weight",
+      "weightUnit": "weightUnit",
+      "seatsIncludingDriver": "seatsIncludingDriver",
+      "payload": "payload",
+      "payloadUnit": "payloadUnit"
+    },
+    "thirdPartyMarketData": [
+      {
+        "thirdPartyCode": "thirdPartyCode",
+        "thirdParty": "thirdParty",
+        "guideProviderCode": "guideProviderCode",
+        "guideProvider": "guideProvider",
+        "guideCodeType": "guideCodeType",
+        "guideCode": "guideCode"
+      }
+    ]
+  },
+  "vehicleEntry": {
+    "keyTypeCode": "keyTypeCode",
+    "keyType": "keyType",
+    "keys": "3",
+    "manufacturerTag": "manufacturerTag"
+  },
+  "exterior": {
+    "colourDescription": "GREY",
+    "colourCode": "colourCode",
+    "paintTypeCode": "paintTypeCode",
+    "paintType": "paintType",
+    "genericColour": "genericColour",
+    "manufacturerColourCode": "manufacturerColourCode"
+  },
+  "featuresAndEquipment": [
+    {
+      "categoryCode": "categoryCode",
+      "category": "category",
+      "equipmentCode": "equipmentCode",
+      "equipment": "equipment",
+      "Abbreviation": "Abbreviation",
+      "Price": "12535",
+      "PriceCurrency": "PriceCurrency",
+      "OEMName": "OEMName",
+      "OEMCode": "OEMCode",
+      "OEMCategory": "OEMCategory",
+      "fitter": "fitter",
+      "costedOption": "costedOption"
+    }
+  ],
+  "interior": [
+    {
+      "upholsteryMaterialCode": "upholsteryMaterialCode",
+      "upholsteryMaterial": "upholsteryMaterial",
+      "upholsteryColourCode": "upholsteryColourCode",
+      "upholsteryColour": "upholsteryColour",
+      "upholsteryPipingCode": "upholsteryPipingCode",
+      "upholsteryPiping": "upholsteryPiping",
+      "upholsteryStitchingCode": "upholsteryStitchingCode",
+      "upholsteryStitching": "upholsteryStitching",
+      "ManufacturerTrimTag": "ManufacturerTrimTag",
+      "trimCode": "trimCode",
+      "trim": "trim",
+      "secondaryTrimCode": "secondaryTrimCode",
+      "secodaryTrim": "secodaryTrim"
+    }
+  ],
+  "odometer": {
+    "reading": "40322",
+    "unit": "Miles",
+    "warrantedCode": "Y",
+    "warranted": "Yes",
+    "unitCode": "unitCode",
+    "readingDate": "10/10/2020",
+    "noOfHours": "10",
+    "replacedDate": "10/10/2020",
+    "replacedReading": "55",
+    "replacedUnitCode": "replacedUnitCode",
+    "replacedUnit": "replacedUnit",
+    "history": [
+      {
+        "reading": "40322",
+        "unit": "Miles",
+        "warrantedCode": "Y",
+        "warranted": "Yes",
+        "unitCode": "unitCode",
+        "readingDate": "10/10/2020",
+        "noOfHours": "10",
+        "replacedDate": "10/10/2020",
+        "replacedReading": "55",
+        "replacedUnitCode": "replacedUnitCode",
+        "replacedUnit": "replacedUnit"
+      }
+    ]
+  },
+  "documents": {
+    "logBookPresentCode": "logBookPresentCode",
+    "logBookPresent": "logBookPresent",
+    "certificateOfConformity": "certificateOfConformity",
+    "certificateOfCompliance": "certificateOfCompliance",
+    "plateingCertificate": "plateingCertificate",
+    "serviceHistory": {
+      "present": "present",
+      "totalServices": "5",
+      "totalMainDealerServices": "3",
+      "manufacturerServicePlan": "manufacturerServicePlan",
+      "manufacturerServicePlanTransferrable": "manufacturerServicePlanTransferrable",
+      "manufacturerServicePlanExpiryDate": "11/11/2020",
+      "nextServicedate": "11/11/2020",
+      "nextServiceDueType": "nextServiceDueType",
+      "nextServiceOdometerValue": "12.32",
+      "nextServiceOdometerUnit": "nextServiceOdometerUnit",
+      "Information": [
+        {
+          "serviceDate": "12/12/2020",
+          "odometer": "567",
+          "odometerUnitCode": "odometerUnitCode",
+          "odometerUnit": "odometerUnit",
+          "mainDealer": "mainDealer",
+          "serviceTypeCode": "serviceTypeCode",
+          "serviceType": "serviceType",
+          "electronicServiceSchedule": "electronicServiceSchedule",
+          "serviceHistorySource": "serviceHistorySource",
+          "serviceInformationNotes": [
+            {
+              "note": "note"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "PTInspection": {
+    "typeCode": "typeCode",
+    "type": "type",
+    "valid": "valid",
+    "lastDate": "10/10/2019",
+    "expiryDate": "10/10/2020",
+    "odometerValue": "102.3",
+    "odometerUnitCode": "odometerUnitCode",
+    "odometerUnit": "odometerUnit",
+    "history": [
+      {
+        "date": "10/10/2019",
+        "passed": "passed",
+        "odometerValue": "13.2",
+        "odometerUnitCode": "odometerUnitCode",
+        "odometerUnit": "odometerUnit",
+        "expiryDate": "10/10/2020",
+        "historyNotes": [
+          {
+            "noteTypeCode": "noteTypeCode",
+            "noteType": "noteType",
+            "note": "note"
+          }
+        ]
+      }
+    ]
+  },
+  "roadWorthiness": {
+    "runner": "runner",
+    "roadWorthy": "roadWorthy"
+  },
+  "conversionInformation": {
+    "convertedBy": "convertedBy"
+  },
+  "sellingInformation": {
+    "assuredApplicable": "No",
+    "sellingDeclaration": "Sold as seen",
+    "sellingDeclarationCode": "sellingDeclarationCode"
+  },
+  "manufacturerWarranty": {
+    "applicableCode": "applicableCode",
+    "applicable": "applicable",
+    "expiryDate": "10/10/2021",
+    "expiryOdometer": "12356",
+    "expiryOdometerUnit": "expiryOdometerUnit",
+    "extendedWarrantyExpiryDate": "10/10/2021",
+    "extendedWarrantyExpiryOdometer": "1234568",
+    "extendedWarrantyExpiryOdometerUnit": "extendedWarrantyExpiryOdometerUnit"
+  },
+  "additionalSources": {
+    "hpi": {
+      "identifier": {
+        "vrm": "vrm",
+        "capCode": "capCode",
+        "capId": "capId",
+        "mileage": "120542",
+        "database": "database",
+        "source": "source"
+      },
+      "vehicleData": {
+        "economy": {
+          "co2Rating": "12.5"
+        }
+
+      },
+      "optionsPrice": "10.5",
+      "optionsRating": "2.5",
+      "vehiclePriceExVat": "3.5",
+      "vehiclePriceWithVat": "4.5",
+      "totalPrice": "2563",
+      "specCheckOptions": [
+        {
+          "shortDescription": "shortDescription",
+          "longDescription": "longDescription",
+          "basicPrice": "12563",
+          "optionPrice": "15246",
+          "optionKind": "optionKind"
+        }
+      ]
+    },
+    "mot": {
+        "completedDate": "2020-10-10",
+        "testResult": "test",
+        "expiryDate": "2020-10-10",
+        "odometerValue": 57825,
+        "odometerUnit": "test",
+        "motTestNumber": 385345613437,
+        "rfrAndComments": [
+            {
+                "text": "test",
+                "type": "test"
+            }
+        ]
+    },
+    "vrmHistory": [
+        {
+            "vrmNumber": "LT13KZF",
+            "startDate": "2021-01-13T20:52:24.970+00:00",
+            "endDate": "2021-01-13T21:04:41.816+00:00"
+        },
+        {
+            "vrmNumber": "LT13KZG",
+            "startDate": "2021-01-13T20:52:24.970+00:00",
+            "endDate": "2021-01-13T21:04:41.816+00:00"
+        }
+    ],
+    "vehicleAncestry": {
+        "isTaxi": true,
+        "vehicleAncestryLastUpdatedDate": "2021-01-14T20:00:23.061+00:00"
+    }
+  }
+}

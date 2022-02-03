@@ -1,0 +1,81 @@
+﻿{
+  "format": 1,
+  "restore": {
+    "/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Models/PI.ECommerceService.Models.csproj": {}
+  },
+  "projects": {
+    "/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Models/PI.ECommerceService.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Models/PI.ECommerceService.Models.csproj",
+        "projectName": "PI.ECommerceService.Models",
+        "projectPath": "/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Models/PI.ECommerceService.Models.csproj",
+        "packagesPath": "/Users/parthi/.nuget/packages/",
+        "outputPath": "/Users/parthi/Hackathon/PI.ECommerceService/PI.ECommerceService.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/parthi/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.1, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.11.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

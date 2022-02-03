@@ -1,0 +1,21 @@
+﻿{
+    "count": 2,
+    "results": [
+        {
+            "record_type": "Taxi",
+            "vrm": "FY13YLS",
+            "vehicle": "Skoda Octavia",
+            "date_from": "2015-10-08",
+            "date_to": "2016-10-10",
+            "source": "East Hertfordshire Council"
+        },
+        {
+            "record_type": "Taxi",
+            "vrm": "DS13YER",
+            "vehicle": "Nisson",
+            "date_from": "2015-09-08",
+            "date_to": "2016-09-10",
+            "source": "East Council"
+        }
+    ]
+}

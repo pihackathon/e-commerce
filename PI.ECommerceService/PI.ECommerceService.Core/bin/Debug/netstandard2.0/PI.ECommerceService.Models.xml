@@ -1,0 +1,484 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PI.ECommerceService.Models</name>
+    </assembly>
+    <members>
+        <member name="T:PI.ECommerceService.Models.Constants.ApplicationConstants">
+            <summary>
+            All Application constants are declared here.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.ApplicationConstants.Success">
+            <summary>
+            Represents success Message.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.ApplicationConstants.Failure">
+            <summary>
+            Represents Failure Message.
+            </summary>
+        </member>
+        <member name="T:PI.ECommerceService.Models.Constants.ErrorConstants">
+            <summary>
+            All Error constants are declared here.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.ErrorConstants.InternalServerError">
+            <summary>
+            Represents internal server error Message.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.ErrorConstants.InternalServerErrorCode">
+            <summary>
+            Represents internal server error code.
+            </summary>
+        </member>
+        <member name="T:PI.ECommerceService.Models.Constants.MongoDBConstants">
+            <summary>
+            All MongoDB constants are declared here.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.MongoDBConstants.ProductCollectionName">
+            <summary>
+            Product collection name.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.MongoDBConstants.SearchOperator">
+            <summary>
+            search operator of mongodb query.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.MongoDBConstants.PhraseOperator">
+            <summary>
+            phrase operator of mongodb query.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.MongoDBConstants.AutoCompleteOperator">
+            <summary>
+            Auto complete operator of mongodb query.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.MongoDBConstants.CompoundOperator">
+            <summary>
+            compound operator of mongodb query.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.MongoDBConstants.MustOperator">
+            <summary>
+            must operator of mongodb query.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.MongoDBConstants.ShouldOperator">
+            <summary>
+            should operator of mongodb query.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.MongoDBConstants.QueryOperator">
+            <summary>
+            phrase operator of mongodb query.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.MongoDBConstants.PathOperator">
+            <summary>
+            phrase operator of mongodb query.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.MongoDBConstants.IndexKey">
+            <summary>
+            index key of mongodb query.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.MongoDBConstants.DefaultIndexvalue">
+            <summary>
+            atlas default index value of mongodb query.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.MongoDBConstants.AutoCompleteIndexvalue">
+            <summary>
+            atlas autoComplete index value of mongodb query.
+            </summary>
+        </member>
+        <member name="T:PI.ECommerceService.Models.Constants.ProductInfoConstants">
+            <summary>
+            All Product collection constants are declared here.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.ProductInfoConstants.Id">
+            <summary>
+            Id of the Product in collection.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.ProductInfoConstants.Price">
+            <summary>
+            Price of the product in product collection.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.ProductInfoConstants.Categories">
+            <summary>
+            Categories of the product in product collection.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.ProductInfoConstants.Category0">
+            <summary>
+            Category.0 of the product in product collection.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.ProductInfoConstants.Category1">
+            <summary>
+            Category.1 of the product in product collection.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.ProductInfoConstants.Category2">
+            <summary>
+            Category.2 of the product in product collection.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.ProductInfoConstants.Department">
+            <summary>
+            Department of the product in product collection.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.ProductInfoConstants.Item">
+            <summary>
+            Item of the product in product collection.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.ProductInfoConstants.Description">
+            <summary>
+            Description of the product in product collection.
+            </summary>
+        </member>
+        <member name="F:PI.ECommerceService.Models.Constants.ProductInfoConstants.Attributes">
+            <summary>
+            All attributes of the product in product collection.
+            </summary>
+        </member>
+        <member name="T:PI.ECommerceService.Models.DTO.Product.ManufactureDetailsDTO">
+            <summary>
+            Manufacture Details sent in api response.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Product.ManufactureDetailsDTO.Brand">
+            <summary>
+            Gets or sets Brand of the product.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Product.ManufactureDetailsDTO.Model">
+            <summary>
+            Gets or sets Model of the product.
+            </summary>
+        </member>
+        <member name="T:PI.ECommerceService.Models.DTO.Product.PricingDTO">
+            <summary>
+            Pricing Details sent in api response.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Product.PricingDTO.Price">
+            <summary>
+            Gets or sets Price of the product.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Product.PricingDTO.Currency">
+            <summary>
+            Gets or sets Currency of the product.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Product.PricingDTO.Discount">
+            <summary>
+            Gets or sets Discount of the product.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Product.PricingDTO.DiscountExpireAt">
+            <summary>
+            Gets or sets DiscountExpireAt of the product.
+            </summary>
+        </member>
+        <member name="T:PI.ECommerceService.Models.DTO.Product.ProductDTO">
+            <summary>
+            product Details sent in api response.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Product.ProductDTO.Id">
+            <summary>
+            Gets or sets Id of the product.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Product.ProductDTO.Sku">
+            <summary>
+            Gets or sets Sku of the product.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Product.ProductDTO.Item">
+            <summary>
+            Gets or sets Item of the product.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Product.ProductDTO.Description">
+            <summary>
+            Gets or sets Description of the product.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Product.ProductDTO.ManufactureDetails">
+            <summary>
+            Gets or sets ManufactureDetails of the product.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Product.ProductDTO.Quantity">
+            <summary>
+            Gets or sets Quantity of the product.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Product.ProductDTO.Pricing">
+            <summary>
+            Gets or sets Pricing of the product.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Product.ProductDTO.Rating">
+            <summary>
+            Gets or sets Rating of the product.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Product.ProductDTO.Image">
+            <summary>
+            Gets or sets Image of the product.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Product.ProductDTO.Attributes">
+            <summary>
+            Gets or sets Attributes of the product.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Product.ProductDTO.Categories">
+            <summary>
+            Gets or sets Category of the product.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Product.ProductDTO.Department">
+            <summary>
+            Gets or sets Department of the product.
+            </summary>
+        </member>
+        <member name="T:PI.ECommerceService.Models.DTO.Product.RatingDTO">
+            <summary>
+            Rating Details of the product sent in api response.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Product.RatingDTO.AggregateRating">
+            <summary>
+            Gets or sets AggregateRating of the product.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Product.RatingDTO.TotalReviews">
+            <summary>
+            Gets or sets TotalReviews of the product.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Product.RatingDTO.Stars">
+            <summary>
+            Gets or sets Stars of the product.
+            </summary>
+        </member>
+        <member name="T:PI.ECommerceService.Models.DTO.Request.AttributeFilterDTO">
+            <summary>
+            Attribute filter for the products to be searched for.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Request.AttributeFilterDTO.K">
+            <summary>
+            Gets or sets key of the search parameter.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Request.AttributeFilterDTO.V">
+            <summary>
+            Gets or sets value of the search parameter.
+            </summary>
+        </member>
+        <member name="T:PI.ECommerceService.Models.DTO.Request.SearchRequestDTO">
+            <summary>
+            Request body with search parameter and value.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Request.SearchRequestDTO.AttributeFilter">
+            <summary>
+            Gets or sets all the attribute filters of the Products to be searched for.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Request.SearchRequestDTO.Department">
+            <summary>
+            Gets or sets the Department of the Products to be searched for.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.DTO.Request.SearchRequestDTO.Categories">
+            <summary>
+            Gets or sets the categories of the Products to be searched for.
+            </summary>
+        </member>
+        <member name="T:PI.ECommerceService.Models.ErrorMessage.Errors">
+            <summary>
+            Error response.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.ErrorMessage.Errors.Code">
+            <summary>
+            Gets or sets Error code.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.ErrorMessage.Errors.Message">
+            <summary>
+            Gets or sets Error message.
+            </summary>
+        </member>
+        <member name="T:PI.ECommerceService.Models.Formatters.DateFormatConverter">
+            <summary>
+            Date formatter.
+            </summary>
+        </member>
+        <member name="M:PI.ECommerceService.Models.Formatters.DateFormatConverter.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PI.ECommerceService.Models.Formatters.DateFormatConverter"/> class.
+            </summary>
+            <param name="format">format of the date.</param>
+        </member>
+        <member name="T:PI.ECommerceService.Models.MongoDB.ManufactureDetails">
+            <summary>
+            Manufacture Details in MongoDB.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.ManufactureDetails.Brand">
+            <summary>
+            Gets or sets Brand of the product in Product collection.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.ManufactureDetails.Model">
+            <summary>
+            Gets or sets Model of the product in Product collection.
+            </summary>
+        </member>
+        <member name="T:PI.ECommerceService.Models.MongoDB.Pricing">
+            <summary>
+            Pricing Details in MongoDB.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Pricing.Price">
+            <summary>
+            Gets or sets Price of the product in Product collection.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Pricing.Currency">
+            <summary>
+            Gets or sets Currency of the product in Product collection.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Pricing.Discount">
+            <summary>
+            Gets or sets Discount of the product in Product collection.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Pricing.DiscountExpireAt">
+            <summary>
+            Gets or sets DiscountExpireAt of the product in Product collection.
+            </summary>
+        </member>
+        <member name="T:PI.ECommerceService.Models.MongoDB.Products">
+            <summary>
+            Product Details in MongoDB.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Products.Id">
+            <summary>
+            Gets or sets Id of the product in Product collection.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Products.Sku">
+            <summary>
+            Gets or sets Sku of the product in Product collection.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Products.Item">
+            <summary>
+            Gets or sets Item of the product in Product collection.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Products.Description">
+            <summary>
+            Gets or sets Description of the product in Product collection.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Products.ManufactureDetails">
+            <summary>
+            Gets or sets ManufactureDetails of the product in Product collection.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Products.Quantity">
+            <summary>
+            Gets or sets Quantity of the product in Product collection.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Products.Pricing">
+            <summary>
+            Gets or sets Pricing of the product in Product collection.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Products.Rating">
+            <summary>
+            Gets or sets Rating of the product in Product collection.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Products.Image">
+            <summary>
+            Gets or sets Image of the product in Product collection.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Products.Attributes">
+            <summary>
+            Gets or sets Attributes of the product in Product collection.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Products.Categories">
+            <summary>
+            Gets or sets Category of the product in Product collection.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Products.Department">
+            <summary>
+            Gets or sets Department of the product in Product collection.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Products.InsertedDate">
+            <summary>
+            Gets or sets created date of the product in Product collection.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Products.UpdatedDate">
+            <summary>
+            Gets or sets last updated date of the product in Product collection.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Products.SchemaVersion">
+            <summary>
+            Gets or sets schema Version of the product in Product collection.
+            </summary>
+        </member>
+        <member name="T:PI.ECommerceService.Models.MongoDB.Rating">
+            <summary>
+            Rating Details in MongoDB.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Rating.AggregateRating">
+            <summary>
+            Gets or sets AggregateRating of the product in Product collection.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Rating.TotalReviews">
+            <summary>
+            Gets or sets TotalReviews of the product in Product collection.
+            </summary>
+        </member>
+        <member name="P:PI.ECommerceService.Models.MongoDB.Rating.Stars">
+            <summary>
+            Gets or sets Stars of the product in Product collection.
+            </summary>
+        </member>
+    </members>
+</doc>

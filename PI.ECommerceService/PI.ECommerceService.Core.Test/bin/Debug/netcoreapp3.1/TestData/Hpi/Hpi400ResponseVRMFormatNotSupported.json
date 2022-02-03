@@ -1,0 +1,9 @@
+{
+  "error": "vehicle not found",
+  "errorCode": "vehicle-fetch-error",
+  "code": 500,
+  "message": "Request Failed in Consumer API not 200",
+  "fields": {
+    "fault": "Error 500: Value &lt;VM123456&gt; exceeds length 7\n"
+  }
+}
