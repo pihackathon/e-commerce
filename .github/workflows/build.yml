@@ -42,13 +42,15 @@ jobs:
       - name: install sonar-scanner
         run: dotnet tool install --global dotnet-sonarscanner
       - name: scanner begin
-        run: dotnet sonarscanner begin /k:"${{ env.key }}" /n:"${{ env.name }}" /v:"${{ env.version }}" /o:"${{ env.organization }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.language="cs" /d:sonar.exclusions="**/bin/**/*,**/obj/**/*" /d:sonar.cs.opencover.reportsPaths="lcov.opencover.xml"
+        run: dotnet sonarscanner begin /k:"${{ env.key }}" /n:"${{ env.name }}" /v:"${{ env.version }}" /o:"${{ env.organization }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.language="cs" /d:sonar.exclusions="**/bin/**/*,**/obj/**/*" /d:sonar.cs.opencover.reportsPaths="lcov*.opencover.xml"
       - name: scanner restore
         run: dotnet restore
       - name: scanner build
         run: dotnet build
-      - name: scanner test
-        run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=../lcov
+      - name: scanner test core
+        run: dotnet test ../PI.ECommerceService.Core.Test/PI.ECommerceService.Core.Test.csproj /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=../lcov1
+      - name: scanner test API
+        run: dotnet test ../PI.ECommerceService.Product.APITest/PI.ECommerceService.Product.APITest.csproj /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=../lcov2
       - name: scanner end
         run: dotnet sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
         env:
