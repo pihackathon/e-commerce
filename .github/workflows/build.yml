@@ -8,7 +8,7 @@ on:
 
 env:
   dotnet: 3.x
-  version: #.#.#
+  version: 1.0.0
   key: PI:ECommerce
   organization: PI:ECommerce
   name: ECommerce
@@ -54,5 +54,4 @@ jobs:
       - name: scanner end
         run: dotnet sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
-Change company , project , #.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
