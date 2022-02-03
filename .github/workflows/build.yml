@@ -48,9 +48,9 @@ jobs:
       - name: scanner build
         run: dotnet build
       - name: scanner test core
-        run: dotnet test ../PI.ECommerceService.Core.Test/PI.ECommerceService.Core.Test.csproj /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=../lcov1
+        run: dotnet test PI.ECommerceService.Core.Test/PI.ECommerceService.Core.Test.csproj /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=../lcov1
       - name: scanner test API
-        run: dotnet test ../PI.ECommerceService.Product.APITest/PI.ECommerceService.Product.APITest.csproj /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=../lcov2
+        run: dotnet test PI.ECommerceService.Product.APITest/PI.ECommerceService.Product.APITest.csproj /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=../lcov2
       - name: scanner end
         run: dotnet sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
         env:
