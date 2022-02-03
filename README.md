@@ -6,6 +6,8 @@ This Project is a POC on how Atlas search can be used for ecommerce product sear
 
 For both the use cases, atlease search index were created with proper type in Mongodb.
 
+Code quality is ensured by referring microsoft recommended coding ruleset throughout the project. This ensures no code is pushed by mistake even with some space issues.
+
 Application structure:
 - Azure HTTP trigger function
    - We have 2 functions covering the 2 scenarios above. 
@@ -44,3 +46,7 @@ sonarqube integration:
   - Sonarqube is integrated with GITHUB on every commit and pull request. 
   - Code coverage is around 82 percent. startup and swageer are not covered in unit test which contributes the rest 18 percent.
   - Minor warnign in sonar cube and no medium or high severities reported by sonarcube.
+
+Sonar Qube link: https://sonarcloud.io/summary/overall?id=pihackathon_e-commerce
+<img width="1047" alt="Screenshot 2022-02-03 at 11 28 37 PM" src="https://user-images.githubusercontent.com/82909783/152401288-0ced01c0-171d-419a-8324-7c146890204c.png">
+
