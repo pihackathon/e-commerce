@@ -21,30 +21,16 @@ namespace PI.ECommerceService.Core.Service
 
         public async Task<List<ProductDTO>> GetProducts(SearchRequestDTO searchRequestDTO)
         {
-            try
-            {
-                var products = await this.mongoDBService.GetProducts(searchRequestDTO);
+            var products = await this.mongoDBService.GetProducts(searchRequestDTO);
 
-                return this.mapper.Map<List<ProductDTO>>(products);
-            }
-            catch (Exception)
-            {
-                throw;
-            }
+            return this.mapper.Map<List<ProductDTO>>(products);
         }
 
         public async Task<List<ProductDTO>> GetProductsByFreeTextSearch(string searchText)
         {
-            try
-            {
-                var products = await this.mongoDBService.GetProductsByFreeTextSearch(searchText);
+            var products = await this.mongoDBService.GetProductsByFreeTextSearch(searchText);
 
-                return this.mapper.Map<List<ProductDTO>>(products);
-            }
-            catch (Exception)
-            {
-                throw;
-            }
+            return this.mapper.Map<List<ProductDTO>>(products);
         }
     }
 }

@@ -24,120 +24,106 @@ namespace PI.ECommerceService.Core.Service
 
         public async Task<List<Products>> GetProducts(SearchRequestDTO searchRequestDTO)
         {
-            try
-            {
-                var departmentfilter = new BsonDocument
+            var departmentfilter = new BsonDocument
                     {
                        { MongoDBConstants.QueryOperator, searchRequestDTO.Department },
                        { MongoDBConstants.PathOperator, ProductInfoConstants.Department }
                     };
 
-                var categories = new BsonArray();
-                categories.AddRange(searchRequestDTO.Categories);
+            var categories = new BsonArray();
+            categories.AddRange(searchRequestDTO.Categories);
 
-                var categoryFilter = new BsonDocument
+            var categoryFilter = new BsonDocument
                     {
                        { MongoDBConstants.QueryOperator, categories },
                        { MongoDBConstants.PathOperator, ProductInfoConstants.Categories }
                     };
 
-                var must = new BsonArray();
+            var must = new BsonArray();
 
-                must.Add(new BsonDocument { { MongoDBConstants.PhraseOperator, departmentfilter } });
-                must.Add(new BsonDocument { { MongoDBConstants.PhraseOperator, categoryFilter } });
+            must.Add(new BsonDocument { { MongoDBConstants.PhraseOperator, departmentfilter } });
+            must.Add(new BsonDocument { { MongoDBConstants.PhraseOperator, categoryFilter } });
 
-                foreach (var attribute in searchRequestDTO.AttributeFilter)
-                {
-                    string path = string.Empty;
-                    ProductInfoConstants.Attributes.TryGetValue(attribute.K, out path);
+            foreach (var attribute in searchRequestDTO.AttributeFilter)
+            {
+                string path = string.Empty;
+                ProductInfoConstants.Attributes.TryGetValue(attribute.K, out path);
 
-                    var attributefilter = new BsonDocument
+                var attributefilter = new BsonDocument
                     {
                        { MongoDBConstants.QueryOperator, attribute.V },
                        { MongoDBConstants.PathOperator, path }
                     };
 
-                    must.Add(new BsonDocument { { MongoDBConstants.PhraseOperator, attributefilter } });
-                }
+                must.Add(new BsonDocument { { MongoDBConstants.PhraseOperator, attributefilter } });
+            }
 
-                var compound = new BsonDocument
+            var compound = new BsonDocument
                 {
                     { MongoDBConstants.MustOperator, must }
                 };
 
-                var search = new BsonDocument
+            var search = new BsonDocument
                 {
                     { MongoDBConstants.IndexKey, MongoDBConstants.DefaultIndexvalue },
                     { MongoDBConstants.CompoundOperator, compound }
                 };
 
-                var searchStage = new BsonDocument
+            var searchStage = new BsonDocument
                 {
                     { MongoDBConstants.SearchOperator, search }
                 };
 
-                var pipeline = new[] { searchStage };
+            var pipeline = new[] { searchStage };
 
-                var result = await this.productCollection.AggregateAsync<Products>(pipeline);
+            var result = await this.productCollection.AggregateAsync<Products>(pipeline);
 
-                return await result.ToListAsync();
-            }
-            catch (Exception)
-            {
-                throw;
-            }
+            return await result.ToListAsync();
         }
 
         public async Task<List<Products>> GetProductsByFreeTextSearch(string searchText)
         {
-            try
+            var pathToBeSearched = new[]
             {
-                var pathToBeSearched = new[]
-                {
                     ProductInfoConstants.Department, ProductInfoConstants.Item, ProductInfoConstants.Description,
                     ProductInfoConstants.Category0, ProductInfoConstants.Category1, ProductInfoConstants.Category2
                 };
 
-                var should = new BsonArray();
+            var should = new BsonArray();
 
-                foreach (var path in pathToBeSearched)
-                {
-                    var filter = new BsonDocument
+            foreach (var path in pathToBeSearched)
+            {
+                var filter = new BsonDocument
                     {
                        { MongoDBConstants.QueryOperator, searchText },
                        { MongoDBConstants.PathOperator, path }
                     };
 
-                    should.Add(new BsonDocument { { MongoDBConstants.AutoCompleteOperator, filter } });
-                }
+                should.Add(new BsonDocument { { MongoDBConstants.AutoCompleteOperator, filter } });
+            }
 
-                var compound = new BsonDocument
+            var compound = new BsonDocument
                 {
                     { MongoDBConstants.ShouldOperator, should },
                     { "minimumShouldMatch", 1 }
                 };
 
-                var search = new BsonDocument
+            var search = new BsonDocument
                 {
                     { MongoDBConstants.IndexKey, MongoDBConstants.AutoCompleteIndexvalue },
                     { MongoDBConstants.CompoundOperator, compound }
                 };
 
-                var searchStage = new BsonDocument
+            var searchStage = new BsonDocument
                 {
                     { MongoDBConstants.SearchOperator, search }
                 };
 
-                var pipeline = new[] { searchStage };
+            var pipeline = new[] { searchStage };
 
-                var result = await this.productCollection.AggregateAsync<Products>(pipeline);
+            var result = await this.productCollection.AggregateAsync<Products>(pipeline);
 
-                return await result.ToListAsync();
-            }
-            catch (Exception)
-            {
-                throw;
-            }
+            return await result.ToListAsync();
         }
     }
 }
