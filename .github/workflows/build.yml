@@ -9,8 +9,8 @@ on:
 env:
   dotnet: 3.x
   version: 1.0.0
-  key: PI:ECommerce
-  organization: PI:ECommerce
+  key: pihackathon_e-commerce
+  organization: pihackathon
   name: ECommerce
 
 jobs:
