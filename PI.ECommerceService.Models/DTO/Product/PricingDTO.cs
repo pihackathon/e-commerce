@@ -1,6 +1,5 @@
 ﻿using System;
 using Newtonsoft.Json;
-using PI.ECommerceService.Models.Formatters;
 
 namespace PI.ECommerceService.Models.DTO.Product
 {
