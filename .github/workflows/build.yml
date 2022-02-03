@@ -41,14 +41,12 @@ jobs:
           dotnet-version: ${{ env.dotnet }}
       - name: install sonar-scanner
         run: dotnet tool install --global dotnet-sonarscanner
-      - name: restore
-        run: dotnet restore
-      - name: build
-        run: dotnet build
       - name: scanner begin
         run: dotnet sonarscanner begin /k:"${{ env.key }}" /n:"${{ env.name }}" /v:"${{ env.version }}" /o:"${{ env.organization }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.language="cs" /d:sonar.exclusions="**/bin/**/*,**/obj/**/*" /d:sonar.cs.opencover.reportsPaths="lcov.opencover.xml"
+      - name: scanner restore
+        run: dotnet restore
       - name: scanner build
-        run: dotnet build Project/Project.csproj
+        run: dotnet build
       - name: scanner test
         run: dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:CoverletOutput=../lcov
       - name: scanner end
